@@ -24,3 +24,9 @@
     background-color: rgba(0, 0, 0, 0.75);
     background-blend-mode: overlay;
 }
+
+.course-image {
+    background-image: url(./images/course/course-1.png);
+    height: 170px;
+    width: 170px;
+}
