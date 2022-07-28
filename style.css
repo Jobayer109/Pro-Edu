@@ -3,7 +3,7 @@
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
 
@@ -12,7 +12,7 @@
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
 
@@ -21,7 +21,7 @@
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
 }
 
