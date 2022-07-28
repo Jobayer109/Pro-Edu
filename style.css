@@ -1,0 +1,8 @@
+.slide-cover-1 {
+    background-image: url(./images/cover/cover-1.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.75);
+    background-blend-mode: overlay;
+}
