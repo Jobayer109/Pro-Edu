@@ -30,3 +30,12 @@
     height: 170px;
     width: 170px;
 }
+
+.explore-image {
+    height: 650px;
+    width: 900px;
+}
+
+.explore-text-bg {
+    background-color: #ececec;
+}
