@@ -6,3 +6,21 @@
     background-color: rgba(0, 0, 0, 0.75);
     background-blend-mode: overlay;
 }
+
+.slide-cover-2 {
+    background-image: url(./images/cover/cover-2.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.75);
+    background-blend-mode: overlay;
+}
+
+.slide-cover-3 {
+    background-image: url(./images/cover/cover-3.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.75);
+    background-blend-mode: overlay;
+}
