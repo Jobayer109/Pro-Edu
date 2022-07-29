@@ -5,6 +5,7 @@
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+
 }
 
 .slide-cover-2 {
@@ -34,8 +35,4 @@
 .explore-image {
     height: 650px;
     width: 900px;
-}
-
-.explore-text-bg {
-    background-color: #ececec;
 }

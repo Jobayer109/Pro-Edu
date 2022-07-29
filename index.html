@@ -17,36 +17,36 @@
 
 <body>
     <!-- header section start  -->
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg bg-dark p-3">
+    <header class="Headers-section" id="home">
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark shadow p-3">
             <div class="container">
-                <h2 class=""> <i class="fa-solid fa-book-open-reader text-success"></i> <span
+                <h2 class=""> <i class="fa-solid fa-book-open-reader text-info"></i> <span
                         class="text-white fw-bold">Pro</span><span class="text-warning fw-bold">Edu</span></h2>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon bg-light rounded-circle p-1  border border-5 border-b"></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-white text-decoration-none me-1 fs-5" aria-current="page"
+                            <a class="nav-link-active text- fw-bold text-decoration-none me-1 fs-5" aria-current="page"
                                 href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white text-decoration-none ms-2 me-2 fs-5"
+                            <a class="nav-link-active fw-bold text-decoration-none ms-2 me-2 fs-5"
                                 href="#courses">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white text-decoration-none ms-2 me-2 fs-5"
+                            <a class="nav-link-active fw-bold text-decoration-none ms-2 me-2 fs-5"
                                 href="#deals">Deals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white text-decoration-none ms-2 me-2 fs-5"
+                            <a class="nav-link-active fw-bold text-decoration-none ms-2 me-2 fs-5"
                                 href="#success">Success</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white text-decoration-none ms-3 me-5 fs-5"
+                            <a class="nav-link-active fw-bold text-decoration-none ms-3 me-5 fs-5"
                                 href="#about">About</a>
                         </li>
                     </ul>
@@ -56,7 +56,7 @@
                 </div>
             </div>
         </nav>
-        <section class="slide-section">
+        <section class="slide-section md-100">
             <div class="container">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
                     <div class="carousel-indicators">
@@ -130,6 +130,9 @@
     </header>
     <br><br>
     <!-- header section end -->
+
+
+
     <!-- main start  -->
     <main>
         <!-- Courses section start  -->
@@ -148,7 +151,7 @@
                 </div>
 
                 <div class="row gy-4">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12">
                         <div
                             class="d-flex align-items-center justify-content-between border border-dark border-2 pe-4 rounded bg-dark">
                             <img class="course-image border border-3 rounded" src="./images/course/course-1.png" alt="">
@@ -170,7 +173,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12">
                         <div
                             class="d-flex align-items-center justify-content-between border border-dark border-2 pe-4 rounded bg-dark">
                             <img class="course-image border border-3 rounded" src="./images/course/course-2.png" alt="">
@@ -190,7 +193,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12">
                         <div
                             class="d-flex align-items-center justify-content-between border border-dark border-2 pe-4 rounded bg-dark">
                             <img class="course-image border border-3 rounded" src="./images/course/course-3.png" alt="">
@@ -211,7 +214,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12">
                         <div
                             class="d-flex align-items-center justify-content-between border border-dark border-2 pe-4 rounded bg-dark">
                             <img class="course-image border border-3 rounded" src="./images/course/course-4.png" alt="">
@@ -232,7 +235,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12">
                         <div
                             class="d-flex align-items-center justify-content-between border border-dark border-2 pe-4 rounded bg-dark">
                             <img class="course-image border border-3 rounded" src="./images/course/course-5.png" alt="">
@@ -253,7 +256,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-6 col-md-12">
                         <div
                             class="d-flex align-items-center justify-content-between border border-dark border-2 pe-4 rounded bg-dark">
                             <img class="course-image border border-3 rounded" src="./images/course/course-6.png" alt="">
@@ -274,7 +277,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center mt-5"> <button
+                <div class="text-center mt-4"> <button
                         class="btn btn-outline-warning border border-dark border-3 px-3 py-2 fw-bold fs-5  border border-black">See
                         More
                         Courses</button>
@@ -287,9 +290,10 @@
         <!-- Explore section satrt  -->
         <section class="explore-section">
             <div class="container">
-                <div class="d-flex p-4 align-items-">
-                    <img class="explore-image bg-dark p-3 rounded-start shadow" src="./images/working.png" alt="">
-                    <div class=" shadow rounded-end bg-dark p-5 ms-">
+                <div class="d-flex mb-5">
+                    <img class="image-fluid explore-image bg-dark p-3 rounded-start shadow" src="./images/working.png"
+                        alt="">
+                    <div class=" shadow rounded-end bg-dark p-5">
                         <h1 class="text-center text-warning fw-bold mb-3">Explore The elearning Institute</h1>
                         <p class="text-center text-white fw-semibold p-3">The eLearning Institute is a virtual
                             destination for
@@ -335,7 +339,53 @@
                             Certificates,
                             and degrees from world-class universities and companies.</p>
                     </div>
-                    <div><button class="btn btn-outline-warning  px-4 py-2 fw-bold fs-5">Register Now</button></div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-outline-warning px-4 py-2 fw-bold fs-5" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Register Now
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog bg-warning rounded">
+                            <div class="modal-content">
+                                <div class="modal-header bg-light shadow">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <h3
+                                    class="text-center mt-3 ms-3 me-3 bg-dark p-2 border border-5 border-dark text-warning fw-bold rounded shadow-lg">
+                                    Sign In
+                                </h3>
+                                <div class="modal-body bg-black rounded p-3 m-3">
+                                    <form>
+                                        <div class="mb-3">
+                                            <label for="exampleInputEmail1" class="form-label text-white fw-bold">Email
+                                                address</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleInputPassword1"
+                                                class="form-label text-white fw-bold">Password</label>
+                                            <input type="password" class="form-control" id="exampleInputPassword1">
+                                        </div>
+                                        <div class="mb-3 form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label  text-white " for="exampleCheck1">Remember
+                                                Password</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-outline-warning fw-bold">Sign in</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer d-flex justify-content-between bg-light shadow">
+                                    <a class="text-decoration-none fs-5" href="#">Forget your password</a>
+                                    <a class="text-decoration-none btn btn-outline-dark fw-bold href=">Sign Up</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -343,7 +393,7 @@
         <!-- Register section end -->
 
         <!-- Students section start  -->
-        <section class="Students-section">
+        <section class="Students-section" id="success">
             <div class="container">
                 <h2 class="mt-5 mb-2 text-center"><span class="fw-bold">Meet Our</span> <span
                         class="text-primary display-5 fw-bold">Successfull
@@ -355,24 +405,24 @@
                     special
                     courses. </p>
                 <div class="row justify-content-between p-2 mb-2">
-                    <div class="col-3 border rounded shadow bg-black p-2">
-                        <img class="w-100 rounded shadow" src="./images/student/student-1.png" alt="">
-                        <h5 class="text-warning text-center mt-3 fw-bold fs-4">Abu Talha</h5>
+                    <div class="col-lg-3 border rounded shadow bg-black p-2">
+                        <img class="image-fluidw-100 rounded shadow" src="./images/student/student-1.png" alt="">
+                        <h5 class="text-warning text-center mt-3 fw-bold fs-4">Jhon Bee</h5>
                         <p class="text-light text-center">UI/UX Designer</p>
                     </div>
-                    <div class="col-3 border rounded shadow bg-black p-2">
-                        <img class="w-100 rounded shadow" src="./images/student/student-2.png" alt="">
-                        <h5 class="text-warning text-center mt-3 fw-bold fs-4">Tahmina Xobayer</h5>
+                    <div class="col-lg-3 border rounded shadow bg-black p-2">
+                        <img class="image-fluid w-100 rounded shadow" src="./images/student/student-2.png" alt="">
+                        <h5 class="text-warning text-center mt-3 fw-bold fs-4">Sana Po</h5>
                         <p class="text-light text-center">Motion design</p>
                     </div>
-                    <div class="col-3 border rounded shadow bg-black p-2">
-                        <img class="w-100 rounded shadow" src="./images/student/student-3.png" alt="">
-                        <h5 class="text-warning text-center mt-3 fw-bold fs-4">Abu Hurayra</h5>
+                    <div class="col-lg-3 border rounded shadow bg-black p-2">
+                        <img class="image-fluid w-100 rounded shadow" src="./images/student/student-3.png" alt="">
+                        <h5 class="text-warning text-center mt-3 fw-bold fs-4">Mark Din</h5>
                         <p class="text-light text-center">Graphic Designer</p>
                     </div>
-                    <div class="col-3 border rounded shadow bg-black p-2">
-                        <img class="w-100 rounded shadow" src="./images/student/student-4.png" alt="">
-                        <h5 class="text-warning text-center mt-3 fw-bold fs-4">Taima Taberi</h5>
+                    <div class="col-lg-3 border rounded shadow bg-black p-2">
+                        <img class="image-fluid w-100 rounded shadow" src="./images/student/student-4.png" alt="">
+                        <h5 class="text-warning text-center mt-3 fw-bold fs-4">Tuki</h5>
                         <p class="text-light text-center">Web Developer</p>
                     </div>
                     <div class="text-center mt-3"><button
@@ -398,8 +448,8 @@
                     <br> Please
                     check it out
                 </p>
-                <div class="row d-flex mt-5 mb-5 border p-3 bg-light rounded bg-dark shadow-lg">
-                    <div class="col-6 border p-5 rounded gx-5">
+                <div class="row d-flex mt-5 mb-5 border border-3 p-3 rounded shadow-lg">
+                    <div class="col-lg-6 border p-5 rounded gx-5 bg-dark">
                         <div>
                             <div class="d-flex justify-content-between">
                                 <img src="/images/comma.png" alt="">
@@ -417,7 +467,7 @@
                             opportunities to ask
                             questions and talk about real life examples which all made for a really enjoyable and
                             informative course.</p>
-                        <div class="col-6 d-flex align-items-center">
+                        <div class="col-lg-6 d-flex align-items-center">
                             <img class="w-0" src="./images/student/student-5.png" alt="">
                             <div class="ms-4 mt-2">
                                 <h5 class="mb-0 text-warning">Jobayer Ahmed</h5>
@@ -425,7 +475,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 border p-5 rounded">
+                    <div class="col-lg-6 border p-5 rounded bg-dark">
                         <div>
                             <div class="d-flex justify-content-between">
                                 <img src="/images/comma.png" alt="">
@@ -443,7 +493,7 @@
                             opportunities to ask
                             questions and talk about real life examples which all made for a really enjoyable and
                             informative course.</p>
-                        <div class="col-6 d-flex align-items-center">
+                        <div class="col-lg-6 d-flex align-items-center">
                             <img class="w-0" src="./images/student/student-6.png" alt="">
                             <div class="ms-4 mt-2">
                                 <h5 class="mb-0 text-warning">Tahmina Xobayer</h5>
@@ -549,14 +599,14 @@
         <!-- FAQ section end -->
 
         <!-- Companies section start  -->
-        <section class="companies-section">
+        <section class="companies-section" id="deals">
             <div class="container">
-                <div class="mt-5 mb-2 text-center p-5">
+                <div class="mt-5 text-center p-5">
                     <h2 class="display-6 fw-semibold">Trusted by over <span class="text-primary fw-bold">800+
                             Companies</span>
                         <hr>
                     </h2>
-                    <div class="p-5 mt-3 d-flex align-items-center justify-content-around">
+                    <div class="p-5 d-flex align-items-center justify-content-around">
                         <img src="./images/company/company-1.png" alt="">
                         <img src="./images/company/company-2.png" alt="">
                         <img src="./images/company/company-3.png" alt="">
@@ -570,8 +620,11 @@
         <!-- Companies section end -->
     </main>
     <!-- main end -->
+
+
+
     <!-- Footer section start  -->
-    <footer class="footer-section">
+    <footer class="footer-section" id="about">
         <div class="bg-black p-5 text-center">
             <h2 class="display-5 mt-5 mb-5"> <i class="fa-solid fa-book-open-reader text-success"></i> <span
                     class="text-white fw-bold">Pro</span><span class="text-warning fw-bold">Edu</span></h2>
